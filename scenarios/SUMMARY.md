@@ -1,4 +1,5 @@
 [Overview](README.md)
 
 - [Getting Started](getting-started/README.md)
-    - [Sub-chapter](getting-started/install-knative.md)
+    - [Installing Knative IBM Cloud](getting-started/install-knative-ibm.md)
+ 
