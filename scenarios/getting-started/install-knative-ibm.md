@@ -74,6 +74,14 @@
 1. Get the external IP of the kourier network
    ```
    kubectl get svc kourier -n kourier-system
+
+   NAME      TYPE           CLUSTER-IP       EXTERNAL-IP      PORT(S)                      AGE
+   kourier   LoadBalancer   172.21.191.127   159.122.80.147   80:32294/TCP,443:31406/TCP   44m
+
    ```
 
-1. Visit http://helloworld-rust-wasi.default.<EXTERNAL-IP>.sslip.io/
+1. Visit the endpoint generated buy sslip.io - http://helloworld-rust-wasi.default.<EXTERNAL-IP>.sslip.io/
+   ```
+   curl http://helloworld-rust-wasi.default.159.122.80.147.sslip.io/
+   Hello Rust Sample v1
+   ```
