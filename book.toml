@@ -1,0 +1,11 @@
+authors = ["Anthony Whalley"]
+language = "en"
+multilingual = false
+title = "Knative and WASMEdge Development"
+src = "scenarios"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url="https://github.com/knawd/documentation/"
+google-analytics = "UA-23153005-4"
