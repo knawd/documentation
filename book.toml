@@ -1,11 +1,20 @@
+[book]
+title = "knawd - Knative and WASMEdge Development"
 authors = ["Anthony Whalley"]
+description = "The example book covers examples."
 language = "en"
 multilingual = false
-title = "Knative and WASMEdge Development"
 src = "scenarios"
+[rust]
+edition = "2021"
+
+[build]
+create-missing = false
 
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
 git-repository-url="https://github.com/knawd/documentation/"
-google-analytics = "UA-23153005-4"
+
+[output.html.search]
+limit-results = 15
